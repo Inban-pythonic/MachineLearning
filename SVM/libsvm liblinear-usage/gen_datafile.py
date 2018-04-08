@@ -15,6 +15,9 @@ def getlabel(img_name):
 	return table.get(face_expression)
 
 
+
+
+
 f = csv.writer(open("trainlbp.csv","wb"))
 
 
@@ -32,7 +35,7 @@ for imgname in img_list:
 	#write into file
 	f.writerow(data)
 
-
+#please command above.
 
 
 
